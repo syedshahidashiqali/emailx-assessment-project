@@ -1,0 +1,50 @@
+/* EmailX styles for AI Campaign Coach task. Use these to enhance the table and modal, but prioritize Bootstrap for core components. */
+
+/* Global body styles */
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif; 
+    background-color: #1b1c1c; 
+}
+
+/* Card background for modal or panels */
+.cool-background-card {
+    background: linear-gradient(70deg, rgba(9, 17, 15, 0.9), rgba(27, 28, 28, 0.4));
+}
+
+/* Text colors */
+.emailx-text-primary {
+    color: whitesmoke;
+}
+
+.emailx-text-secondary {
+    color: #adb5bd;
+}
+
+/* Accent colors */
+.emailx-color-primary {
+    color: #4CD4A9;
+}
+
+.emailx-color-secondary {
+    color: rgb(116, 169, 255);
+}
+
+/* Backgrounds */
+.emailx-bg-primary {
+    background-color: #4CD4A9;
+}
+
+.emailx-bg-secondary {
+    background-color: #003284;
+    border: 1px solid rgb(116, 169, 255);
+}
+
+/* Error/warning color */
+.emailx-color-red {
+    color: #ff4c43;
+}

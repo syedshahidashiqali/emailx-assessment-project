@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>EmailX AI Coach</h1>
+    <table class="table table-striped">
+      {% for contact in contacts %}
+      <tr>
+        <td>{{ contact.name }}</td>
+        <td>{{ contact.job_title }}</td>
+        <td>{{ contact.company }}</td>
+        <td><a href="{{ contact.linkedin }}">LinkedIn</a></td>
+        <td><a href="{{ contact.website }}">Website</a></td>
+        <td><button class="btn btn-primary generate-campaign" data-id="{{ contact.id }}">Generate Campaign</button></td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

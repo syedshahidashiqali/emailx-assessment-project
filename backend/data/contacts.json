@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Vittoria Zuccolo",
+        "job_title": "Sales Consultant",
+        "company": "JEVE",
+        "linkedin": "https://www.linkedin.com/in/vzuccolo/",
+        "website": "https://jeve.it/"
+    },
+    {
+        "id": 2,
+        "name": "Evgeniy Altynpara",
+        "job_title": "CTO and Founder",
+        "company": "Cleveroad",
+        "linkedin": "https://www.linkedin.com/in/altynpara/",
+        "website": "https://www.cleveroad.com/"
+    },
+    {
+        "id": 3,
+        "name": "Brandon Middleton",
+        "job_title": "Generative AI Leader",
+        "company": "AWS",
+        "linkedin": "https://www.linkedin.com/in/brmiddle/",
+        "website": "https://aws.amazon.com/"
+    },
+    {
+        "id": 4,
+        "name": "Divyaraj Rana",
+        "job_title": "Supply Chain Associate",
+        "company": "ALDI USA",
+        "linkedin": "https://www.linkedin.com/in/divyaraj-rana/",
+        "website": "https://www.aldi.us/"
+    },
+    {
+        "id": 5,
+        "name": "Tony Reyes",
+        "job_title": "VP",
+        "company": "Trek10",
+        "linkedin": "https://www.linkedin.com/in/tonyreyes1/",
+        "website": "https://www.trek10.com/"
+    },
+    {
+        "id": 6,
+        "name": "Tej Johnson",
+        "job_title": "Investment Professional",
+        "company": "Lateral",
+        "linkedin": "https://www.linkedin.com/in/tej-johnson/",
+        "website": "https://lateralim.com/"
+    },
+    {
+        "id": 7,
+        "name": "Terrance Ryan",
+        "job_title": "Analyst",
+        "company": "Goldman Sachs",
+        "linkedin": "https://www.linkedin.com/in/terranceryan/",
+        "website": "https://www.goldmansachs.com/"
+    }    
+  ]
